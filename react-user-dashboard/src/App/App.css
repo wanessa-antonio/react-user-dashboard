@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+  font-family: Arial, sans-serif;
+  background-color: red;
+
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
