@@ -25,23 +25,6 @@ Este projeto tem como objetivo praticar e demonstrar:
 
 ---
 
-## ⚙️ Como executar o projeto
-
-```bash
-# Clonar repositório
-git clone <url-do-repositorio>
-
-# Acessar pasta
-cd react-user-dashboard
-
-# Instalar dependências
-npm install
-
-# Rodar projeto
-npm run dev
-```
----
-
 ## 🔄 Próximas melhorias
 
 * Listagem de usuários
