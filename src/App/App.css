@@ -1,14 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 48px;
-  font-family: Arial, sans-serif;
-  background-color: red;
-
+  padding: 40px 16px;
 }
 
 .title {
-  font-size: 32px;
-  margin-bottom: 16px;
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #1f2937;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 400px;
 }
