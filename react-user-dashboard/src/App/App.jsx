@@ -11,7 +11,7 @@ function App() {
   const users = ['Ana', 'João', 'Maria', 'Carlos'];
 
   // filtro
-  const filteredUsers = users.filter(user =>
+  const filteredUsers = users.filter((user) =>
     user.toLowerCase().includes(search.toLowerCase())
   );
 
@@ -22,17 +22,23 @@ function App() {
       {/* input controlado */}
       <SearchBar value={search} onChange={setSearch} />
 
-      {/* lista em formato de cards */}
+      {/* lista */}
       <section className="user-list">
-        {filteredUsers.map((user, index) => (
-          <UserCard
-            key={index}
-            user={{
-              name: user,
-              email: `${user.toLowerCase()}@email.com`
-            }}
-          />
-        ))}
+        {filteredUsers.length > 0 ? (
+          filteredUsers.map((user, index) => {
+            return (
+              <UserCard
+                key={index}
+                user={{
+                  name: user,
+                  email: `${user.toLowerCase()}@email.com`,
+                }}
+              />
+            );
+          })
+        ) : (
+          <p className="empty">Nenhum usuário encontrado</p>
+        )}
       </section>
     </main>
   );
