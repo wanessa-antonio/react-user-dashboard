@@ -6,21 +6,23 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
   transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
 }
 
 .user-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
 .user-name {
   margin: 0;
   font-size: 18px;
+  font-weight: 600;
   color: #111827;
 }
 
 .user-email {
-  margin-top: 4px;
+  margin-top: 6px;
   font-size: 14px;
   color: #6b7280;
 }
