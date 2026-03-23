@@ -1,40 +1,76 @@
-# 📊 Dashboard de Usuários
+# 🚀 Dashboard de Usuários
 
-Aplicação frontend desenvolvida com React com foco em boas práticas de componentização, organização de código e experiência do usuário.
-
----
-
-## 🚀 Tecnologias utilizadas
-
-* React
-* Vite
-* JavaScript (ES6+)
-* CSS3
+Aplicação frontend desenvolvida com React que consome uma API externa para exibir e filtrar usuários em tempo real.
 
 ---
 
-## 🎯 Objetivo do projeto
+## 📌 Sobre o projeto
 
-Este projeto tem como objetivo praticar e demonstrar:
+Este projeto simula um dashboard de usuários, permitindo:
 
-* Criação de interfaces com React
-* Estruturação de componentes reutilizáveis
-* Organização de código seguindo boas práticas
-* Estilização com CSS modular
-* Preparação para integração com APIs
-
----
-
-## 🔄 Próximas melhorias
-
-* Listagem de usuários
-* Filtro dinâmico de busca
-* Integração com API
-* Melhorias de UI/UX
-* Responsividade
+- Buscar usuários dinamicamente
+- Filtrar resultados em tempo real
+- Exibir dados vindos de uma API
+- Tratar estados de loading e erro
 
 ---
 
-## 👩‍💻 Autor
+## 🛠️ Tecnologias utilizadas
+
+- React (Vite)
+- JavaScript (ES6+)
+- CSS3
+- Fetch API
+
+---
+
+## 🌐 API utilizada
+
+Dados consumidos da API pública:
+
+https://jsonplaceholder.typicode.com/users
+
+---
+
+## ⚙️ Funcionalidades
+
+- 🔍 Busca de usuários por nome
+- 📡 Consumo de API externa
+- ⏳ Estado de carregamento (loading)
+- ❌ Tratamento de erro
+- 📱 Layout responsivo
+- 🧩 Componentização (SearchBar, UserCard)
+
+---
+
+## 🚀 Como rodar o projeto
+
+```bash
+# instalar dependências
+npm install
+
+# rodar projeto
+npm run dev
+```
+
+Acesse no navegador:
+
+http://localhost:5173/
+
+---
+
+## 📸 Preview
+
+Interface simples e moderna com lista de usuários e busca em tempo real.
+
+---
+
+## 💡 Melhorias futuras
+
+- Em planejamento
+
+---
+
+## 👩‍💻 Autora
 
 Wanessa Antonio
